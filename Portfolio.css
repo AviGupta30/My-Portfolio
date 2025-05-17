@@ -1,0 +1,199 @@
+.card{
+    width:300px;
+    height: 300px;
+    border:2px solid black;
+    display: inline-block;
+    margin:10px;
+    border-radius: 5px;
+    box-shadow: 0 4px 8px black;
+    transition: 1s;
+}
+.desc{
+    padding: 0 25px 0 50px;
+}
+img{
+    width:100%;
+    border-radius: 5px 5px 0 0 ;
+}
+
+#outer{
+    border:2px solid black;
+    width:350px;
+    padding-left: 25px;
+    box-shadow: 0 5px 10px black;
+    background-color: rgba(66, 0, 0, 0.218);
+    border-radius:5px ;
+    transition: 2s;
+    position:absolute;
+    top:125px;
+    left:1000px;
+
+}
+#outer:hover{
+    box-shadow: 0 10px 20px black;
+}
+#hello{
+    position: absolute;
+    top:130px;
+    left:200px;
+}
+#border{
+    height:750px;
+    width:1500px;
+    border: 4px solid black;
+    border-radius: 10px;
+    background-color:rgba(58, 167, 210, 0.249);
+    background-image: url("back1.png");
+    background-size: contain;
+    
+}
+#border1{
+    height: 650px;
+    width: 1400px;
+    border:2px solid whitesmoke;
+    position: relative;
+    top:50px;
+    left:50px;
+    background-color: whitesmoke;
+    border-radius: 10px;
+    background-image: url("background.png");
+    background-size: contain;
+}
+#p1{
+    position:absolute;
+    top:250px;
+    left:260px;
+    width:700px;
+    font-size: 20px;
+}
+.about-container{
+    position: absolute;
+    left:1000px;
+    font-size:20px ;
+}
+
+
+.about-popup {
+  display: none;
+  position: absolute;
+  top: 120%; /* adjust as needed */
+  left: 0;
+  width: 250px;
+  background: #fff;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.15);
+  padding: 15px;
+  z-index: 100;
+}
+
+.about-container:hover .about-popup {
+  display: block;
+}
+
+
+.about-text {
+  cursor: pointer;
+  color: #000000;
+  font-weight: bold;
+}
+   
+
+.skill{
+    position: absolute;
+    left:1070px;
+    font-size: 20px;
+}
+
+.skill-popup{
+    display:none;
+    position: absolute;
+    top:120%;
+    left:0;
+    width:250px;
+    background:#fff;
+    border:1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.15);
+    padding:15px;
+    z-index:100;
+}
+.skill:hover .skill-popup{
+    display:block;
+}
+.skill1{
+    cursor:pointer;
+    color: black;
+    font-weight: bold;
+}
+.education{
+    position: absolute;
+    left:1140px;
+    font-size: 20px;;
+}
+
+.education-popup{
+    display:none;
+    position: absolute;
+    top:120%;
+    left:0;
+    width:250px;
+    background:#fff;
+    border:1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.15);
+    padding:15px;
+    z-index:100;
+}
+.education:hover .education-popup{
+    display:block;
+}
+.education1{
+    cursor:pointer;
+    color: black;
+    font-weight: bold;
+}
+.contact{
+    position:absolute;
+    left:1240px;
+    font-size: 20px;;
+}
+
+
+.contact-popup{
+    display:none;
+    position: absolute;
+    top:120%;
+    left:0;
+    width:250px;
+    background:#fff;
+    border:1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.15);
+    padding:15px;
+    z-index:100;
+}
+.contact:hover .contact-popup{
+    display:block;
+}
+.contact1{
+    cursor:pointer;
+    color: black;
+    font-weight: bold;
+}
+#linkedin{
+    position: absolute;
+    top:400px;
+    left:260px;
+    border:2px solid black;
+    padding:3px;
+    border-radius: 5px;
+    background-color: #0077b5;
+    
+}
+#a{
+    color:white;
+    text-decoration: none;
+    font-size: 25px;
+    font-family: 'Times New Roman', Times, serif;
+}
